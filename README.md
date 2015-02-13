@@ -48,3 +48,22 @@ The css is also custom and inspired from Android colorscheme.
   * admin - repsonsible for setting a student as DPC.
   * student - one who takes part in the placement. Applies to companies and signs job application forms.
   * company - floats job application forms and annouce results.
+
+## How to run?
+In Linux you can setup the website by: 
+	* clone the repo in /var/www/.
+	* recursively chown the downloaded repo as :www-data.
+	* set up the db using the placement.sql script.
+	* add the default values to the file tier3/DBConnection.php according to your connection.
+
+```bash
+sudo su
+cd /var/www
+git clone https://github.com/sushantmahajan/placement
+chown -r :www-data placement
+#setup DB
+mysql -u username -p -h localhost placement < data.sql 
+#add connection params to the constructor of the following file
+vim placement/tier3/DBConnection.php
+```
+
