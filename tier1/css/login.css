@@ -1,0 +1,67 @@
+body{ 
+	background-color:#22272D;
+	margin:0;
+	padding:0;
+	border:0;
+	width:100%;
+	color:#FFFFFF;
+}
+
+#errString{
+	font-family: "courier new";
+	font-size: 16px;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+
+#container{ 
+	margin:10px auto;
+	font-family:helvetica;
+	width:80%
+}
+
+#tableWrapper{
+	margin: auto;
+	position: absolute;
+	top: 30%; left: 0; bottom: 0; right: 0;
+}
+
+.loginTable{
+	padding: 0px;
+	border-spacing: 10px;	
+	text-align: center;
+	background-color:#282828;
+}
+
+.loginFieldSet{
+	color: #38c0f4;
+	width: 50%;
+	background-color:#282828;
+	border: 1px solid #38c0f4;
+}
+
+.loginHeading{
+	font-weight: bold;
+}
+
+.cellLeft{
+	text-align: left;
+}
+
+.cellCenter{
+	text-align: center;
+}
+
+h2{
+	font-size: 32px;
+	border: 1px solid #38c0F4;
+	color: #38c0F4;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding:5px;
+	margin: 10px;
+	text-align: center;
+	background-color:#282828;
+}
+
