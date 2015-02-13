@@ -62,8 +62,9 @@ cd /var/www
 git clone https://github.com/sushantmahajan/placement
 chown -r :www-data placement
 #setup DB
-mysql -u username -p -h localhost placement < data.sql 
-#add connection params to the constructor of the following file
-vim placement/tier3/DBConnection.php
+cd placement
+mysql -u username -p -h localhost placement < placement.sql
+#add connection params to the constructor of the following file. Currently it has empty strings only.
+vim tier3/DBConnection.php
 ```
 
