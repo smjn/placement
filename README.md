@@ -51,10 +51,10 @@ The css is also custom and inspired from Android colorscheme.
 
 ## How to run?
 In Linux you can setup the website by: 
-	* clone the repo in /var/www/.
-	* recursively chown the downloaded repo as :www-data.
-	* set up the db using the placement.sql script.
-	* add the default values to the file tier3/DBConnection.php according to your connection.
+  * clone the repo in /var/www/.
+  * recursively chown the downloaded repo as :www-data.
+  * set up the db using the placement.sql script.
+  * add the default values to the file tier3/DBConnection.php according to your connection.
 
 ```bash
 sudo su
